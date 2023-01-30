@@ -42,5 +42,5 @@ fillArray(arr);
 printArray(arr);
 Console.WriteLine();
 
-int position = indexOf(arr, 4);
-Console.WriteLine(position);
+int pos = indexOf(arr, 4);
+System.Console.WriteLine(pos);
