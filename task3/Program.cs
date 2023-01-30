@@ -27,7 +27,8 @@ int positivNumbers(int[] number)
   int quantity = 0;
   while (index < lenght)
   {
-    if(number[index]%2==0){
+    if (number[index] % 2 == 0)
+    {
       quantity++;
     }
     index++;
@@ -35,12 +36,15 @@ int positivNumbers(int[] number)
   return quantity;
 }
 
-int negativNumber(int[]num){
+int negativNumber(int[] num)
+{
   int lenght = num.Length;
-  int i =0;
+  int i = 0;
   int quantity = 0;
-  while(i<lenght){
-    if(num[i]%2>0){
+  while (i < lenght)
+  {
+    if (num[i] % 2 > 0)
+    {
       quantity++;
     }
     i++;
