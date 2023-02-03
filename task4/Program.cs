@@ -2,7 +2,7 @@
 void fillArray(int[] arr)
 {
   int r = 0;
-  for (int i = 0; i < 123; i++)
+  for (int i = 0; i < arr.Length; i++)
   {
     arr[i] = r+1;
     r++;
