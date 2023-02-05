@@ -22,18 +22,18 @@ fillArray(array);
 
 printArray(array);
 
-double[] numbersPairs(int[] arr)
+int[] numbersPairs(int[] arr)
 {
-  double[] productNumber = new double[arr.Length];
+  int[] productNumber = new int[arr.Length/2];
   for (int i = 0; i < arr.Length / 2 ; i++)
   {
-    double sum = 0;
+    int sum = 0;
     sum = arr[i] * arr[arr.Length - 1 - i];
     productNumber[i]= sum;
   }
   return productNumber;
 }
 
-double[] productNum = numbersPairs(array);
+int[] productNum = numbersPairs(array);
 System.Console.WriteLine("");
 System.Console.WriteLine(string.Join(",",productNum));
